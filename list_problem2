@@ -1,0 +1,6 @@
+'''Given a list in Python and provided the positions of the elements, 
+write a program to swap the two elements in the list.'''
+
+def swap_two_elements(alist, index1, index2):
+  alist[index1], alist[index2] = alist[index2], alist[index1]
+  return alist
