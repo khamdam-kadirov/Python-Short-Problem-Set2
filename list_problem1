@@ -1,0 +1,4 @@
+# interchange first and last elements in a list
+def interchange_elements(alist):
+  alist[0], alist[-1] = alist[-1], alist[0]
+  return alist
